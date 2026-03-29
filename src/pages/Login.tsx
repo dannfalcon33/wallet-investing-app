@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useAuth } from '../hooks/useAuth';
-import { Shield, Lock } from 'lucide-react';
+import { Lock } from 'lucide-react';
 
 export function Login() {
   const [username, setUsername] = useState('Dann33');

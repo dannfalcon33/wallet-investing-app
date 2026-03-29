@@ -1,7 +1,5 @@
 import { useState, useEffect } from 'react';
 
-// Symbols to fetch from Binance
-const SYMBOLS = ['BTCUSDT', 'ETHUSDT', 'SOLUSDT', 'BNBUSDT', 'PAXGUSDT'];
 
 export function useCryptoPrices() {
   const [prices, setPrices] = useState<Record<string, number>>({});

@@ -36,7 +36,7 @@ export function DashboardLayout({ children }: DashboardLayoutProps) {
           </button>
         </div>
 
-        <nav style={{ flex: 1, display: 'flex', flexDirection: 'column', gap: '0.5rem', display: 'var(--show-nav, flex)' }}>
+        <nav style={{ flex: 1, flexDirection: 'column', gap: '0.5rem', display: 'var(--show-nav, flex)' }}>
           {navItems.map((item) => {
             const isActive = location.pathname === item.path;
             const Icon = item.icon;
